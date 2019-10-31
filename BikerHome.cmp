@@ -1,0 +1,15 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" controller="ReBottle">
+	<aura:attribute name="mapMarkers" type="Object"/>
+    <aura:attribute name="zoomLevel" type="Integer" />
+    
+    
+     <!-- handlers-->
+    <aura:handler name="init" value="{! this }" action="{! c.init }"/>
+    
+    <div>
+        <!--problem sa markers ayaw nya maload-->
+        <lightning:map
+                           mapMarkers="{! v.mapMarkers }" 
+                           zoomLevel="{!v.zoomLevel}" />
+    </div>
+</aura:component>
