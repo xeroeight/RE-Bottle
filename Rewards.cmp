@@ -1,0 +1,45 @@
+<aura:component >
+	<div class = "slds-container">
+    	<div class = "slds-box slds-container">
+            <p style = "font-size: 100%"><b>McDonalds</b></p><br/>
+            Description: P100 off<br/>
+            RE-Coins Price: RE-30<br/><br/>
+            <button class ="slds-button slds-button_brand">Purchase</button>
+        </div>
+        
+        <div class = "slds-box slds-container">
+            <p style = "font-size: 100%"><b>GRAB</b></p><br/>
+            Description: P100 off<br/>
+            RE-Coins Price: RE-45<br/><br/>
+            <button class ="slds-button slds-button_brand">Purchase</button>
+        </div>
+        
+        <div class = "slds-box slds-container">
+            <p style = "font-size: 100%"><b>Mang Inasal</b></p><br/>
+            Description: Buy 1 Take 1 (PM1)<br/>
+            RE-Coins Price: RE-80<br/><br/>
+            <button class ="slds-button slds-button_brand">Purchase</button>
+        </div>
+        
+        <div class = "slds-box slds-container">
+            <p style = "font-size: 100%"><b>Novotel</b></p><br/>
+            Description: P1000 off<br/>
+            RE-Coins Price: RE-300<br/><br/>
+            <button class ="slds-button slds-button_brand">Purchase</button>
+        </div>
+        
+        <div class = "slds-box slds-container">
+            <p style = "font-size: 100%"><b>Burger King</b></p><br/>
+            Description: P50 off<br/>
+            RE-Coins Price: RE-10<br/><br/>
+            <button class ="slds-button slds-button_brand">Purchase</button>
+        </div>
+        
+        <div class = "slds-box slds-container">
+            <p style = "font-size: 100%"><b>Dairy Queen</b></p><br/>
+            Description: P100 off<br/>
+            RE-Coins Price: RE-30<br/><br/>
+            <button class ="slds-button slds-button_brand">Purchase</button>
+        </div>
+    </div>
+</aura:component>
