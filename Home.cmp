@@ -1,0 +1,19 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" controller="ReBottle">
+    <!-- attributes -->
+    <aura:attribute name="mapMarkers" type="Object"/>
+    <aura:attribute name="zoomLevel" type="Integer" />
+    
+    <!-- handlers-->
+    <aura:handler name="init" value="{! this }" action="{! c.init }"/>
+    
+    <div class="slds-m-left_medium slds-m-top_medium">
+        <div>
+            <lightning:input placeholder="General Roxas Ave, Cubao, Quezon City, 1109 Metro Manila"/>
+        </div>
+        <div>
+            <lightning:map
+                           mapMarkers="{! v.mapMarkers }" 
+                           zoomLevel="{!v.zoomLevel}" />
+        </div>
+    </div>
+</aura:component>
